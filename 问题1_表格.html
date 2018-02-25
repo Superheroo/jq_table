@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<!--
+			
+			假设现在从后台接受了一段关于访客的信息数据(添加新的访客信息从info里面按照顺序拿取),请实现问题一.gif的效果.
+			
+		-->
+		<button class="add">添加一条新的访客信息</button>
+		<button class="del">删除选中</button>
+		<button class="sort">从小到大</button>
+		<table border="1" cellspacing="0" cellpadding="10">
+			<tr>
+				<th>序列号</th>
+				<th>姓名</th>
+				<th>年龄</th>
+				<th>操作</th>
+				<th>选择</th>
+			</tr>
+		</table>
+		<script type="text/javascript">
+			var info = [
+					{ name: "胡杭", age: 16 },
+					{ name: "胜明", age: 22 },
+					{ name: "军毅", age: 21 },
+					{ name: "晓华", age: 13 },
+					{ name: "盛聪", age: 23 },
+					{ name: "侦剑", age: 32 },
+					{ name: "红翔", age: 25 },
+					{ name: "超维", age: 18 },
+					{ name: "士琪", age: 22 },
+					{ name: "艳华", age: 20 }
+				];
+		</script>
+	</body>
+
+</html>

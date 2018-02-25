@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		.my_bg {
+			background-color: yellow;
+			color: black;
+		}
+	</style>
+
+	<body>
+		<!--
+			
+			假设现在从后台接受了一段关于访客的信息数据(添加新的访客信息从info里面按照顺序拿取),请实现问题一.gif的效果.
+			
+		-->
+		<button class="add">添加一条新的访客信息</button>
+		<button class="del">删除选中</button>
+		<button class="sort">年龄从小到大</button>
+		<button class="all_in">全选</button>
+		<button class="all_no">返选</button>
+		<button class="sort_no">序列号从大到小</button>
+		<table border="1" cellspacing="0" cellpadding="10">
+			<tr>
+				<th>序列号</th>
+				<th>姓名</th>
+				<th>年龄</th>
+				<th>操作</th>
+				<th>选择</th>
+			</tr>
+		</table>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jq_table.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
